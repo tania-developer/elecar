@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Exo', sans-serif;
+  background-color: hsl(219, 4%, 4%);
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+p{
+  color: hsl(219,8%, 75%);
+}
+
+.container{
+  width: 100vw;
+  padding: 4rem 0;
+}
+
+.grid{
+  display: grid;
+  gap: 1.2rem;
+}
