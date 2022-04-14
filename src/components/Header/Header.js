@@ -11,6 +11,19 @@ const Header = () => {
         height: undefined,
     });
 
+    const [scrollbar, setScrollbar] = useState(false);
+
+    const navBackground = () => {
+        if(window.scrollY >= 80){
+            setScrollbar(true);
+        }
+        else{
+            setScrollbar(false);
+        }
+    }
+
+    window.addEventListener('scroll', navBackground)
+
     useEffect(() => {
         const handleResize = () => {
             setSize({
@@ -33,7 +46,7 @@ const Header = () => {
         setMenuOpen(!menuOpen);
     }
     return (
-        <nav className="nav">
+        <nav className={scrollbar ? 'nav scroll' : 'nav'}>
             <a href="#home" className="nav__logo">
                 <img src={logo} alt="" />
                 <div className="nav__brand">

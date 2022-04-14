@@ -13,13 +13,16 @@ const PopularCard = (props) => {
             <p className="card__title normal__font">{title}</p>
             <p className="smaller__font">{subtitle}</p>
             <div className="popular__img">
-                {<img src={imgUrl.popular1} alt="porsche" /> }
+                {<img src={imgUrl} alt="porsche" /> }
             </div>
-            <div className="popular__feature">
+            {
+                time && 
+                <div className="popular__feature">
                 <p className="smaller__font feature"><FontAwesomeIcon icon={faGauge}/> {time}</p>
                 <p className="smaller__font feature"><FontAwesomeIcon icon={faClock}/> {speed}</p>
                 <p className="smaller__font feature"><FontAwesomeIcon icon={faChargingStation}/> {charge}</p>
             </div>
+            }
             <p className="price normal__font">{price}</p>
             <button className='popular__btn'><FontAwesomeIcon icon={faBagShopping}/></button>
 

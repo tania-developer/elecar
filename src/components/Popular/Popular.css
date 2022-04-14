@@ -1,9 +1,10 @@
 .popular__container{
     padding: 4rem 0;
 }
-.popular__container .about__title {
-    display: flex;
-    justify-content: center;
+.popular__title {
+    color: hsl(219, 8%, 95%);
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
     text-align: center;
 }
 
@@ -65,5 +66,8 @@
 @media only screen and (min-width: 768px){
     .popular__container{
         padding-top: 8rem;
+    }
+    .popular__title{
+        font-size: 1.9rem;
     }
 }

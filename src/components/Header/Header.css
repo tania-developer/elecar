@@ -10,6 +10,10 @@
     width: 100vw;
 }
 
+.scroll{
+    background-color: rgb(0, 0, 0);
+}
+
 .nav__logo{
     display: flex;
     align-items: center;

@@ -1,6 +1,5 @@
 import React from 'react';
 import PopularCard from './PopularCard';
-import popular1 from '../../img/popular1.png';
 
 const Popular = () => {
     var data = [
@@ -8,7 +7,7 @@ const Popular = () => {
             id: '0',
             title: 'Porsche',
             subtitle: 'Turbo 5',
-            imgUrl: {popular1},
+            imgUrl: 'https://i.ibb.co/M9cLQH2/popular1.png',
             time: '37 Sec',
             speed: '356 Km/h',
             charge: 'Electric',
@@ -19,7 +18,7 @@ const Popular = () => {
             id: '1',
             title: 'Porsche',
             subtitle: 'Turbo 5',
-            imgUrl: {popular1},
+            imgUrl: 'https://i.ibb.co/vLXwgSH/popular3.png',
             time: '37 Sec',
             speed: '356 Km/h',
             charge: 'Electric',
@@ -28,7 +27,7 @@ const Popular = () => {
     ];
     return (
         <div className='popular__container'>
-            <h3 className="about__title">
+            <h3 className="popular__title">
                 Choose Your Electric Car<br/> Of The Porsche Brand
             </h3>
             <div className="popular__swiper">
