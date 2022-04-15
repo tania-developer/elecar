@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import logo from '../../img/favicon.png';
+import logo from '../../../img/favicon.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBarsStaggered, faXmark } from '@fortawesome/free-solid-svg-icons'
 import './Header.css'
@@ -46,7 +46,7 @@ const Header = () => {
         setMenuOpen(!menuOpen);
     }
     return (
-        <nav className={scrollbar ? 'nav scroll' : 'nav'}>
+        <div className={scrollbar ? 'nav scroll' : 'nav'}>
             <a href="#home" className="nav__logo">
                 <img src={logo} alt="" />
                 <div className="nav__brand">
@@ -72,7 +72,7 @@ const Header = () => {
             <div className="nav__toggle" onClick={menuToggleHandler}> 
                 {menuOpen ? <FontAwesomeIcon icon={faBarsStaggered} /> : <FontAwesomeIcon icon={faXmark}/>}
             </div>
-        </nav>
+        </div>
     )
 }
 

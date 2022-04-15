@@ -1,6 +1,6 @@
 import React from 'react';
-import featureImg from '../../img/features.png'
-import featureMap from '../../img/map.svg';
+import featureImg from '../../../img/features.png'
+import featureMap from '../../../img/map.svg';
 import './Features.css'
 
 const Feature = () => {

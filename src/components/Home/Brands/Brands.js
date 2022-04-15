@@ -7,7 +7,7 @@ const Brands = () => {
     var brandData = [
         {
             id: '0',
-            title: 'Porsche',
+            title: 'Tesla',
             subtitle: 'Turbo 5',
             imgUrl: 'https://i.ibb.co/q59HhpQ/featured1.png',
             price: '$175,900'
@@ -15,9 +15,31 @@ const Brands = () => {
 
         {
             id: '1',
-            title: 'Porsche',
+            title: 'Tesla',
             subtitle: 'Turbo 5',
             imgUrl: 'https://i.ibb.co/T0tD9qW/featured2.png',
+            price: '$185,900'
+        },
+
+        {
+            id: '2',
+            title: 'Audi',
+            subtitle: 'Turbo 5',
+            imgUrl: 'https://i.ibb.co/F7mV8sQ/featured3.png',
+            price: '$185,900'
+        },
+        {
+            id: '3',
+            title: 'Porsche',
+            subtitle: 'Turbo 5',
+            imgUrl: 'https://i.ibb.co/km4YpJ0/featured4.png',
+            price: '$185,900'
+        },
+        {
+            id: '4',
+            title: 'Porsche',
+            subtitle: 'Turbo 5',
+            imgUrl: 'https://i.ibb.co/qCCmB7m/featured5.png',
             price: '$185,900'
         }
     ];

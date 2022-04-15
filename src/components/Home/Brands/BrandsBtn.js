@@ -1,7 +1,7 @@
 import React from 'react';
-import logo2 from '../../img/logo2.png';
-import logo1 from '../../img/logo1.png';
-import logo3 from '../../img/logo3.png';
+import logo2 from '../../../img/logo2.png';
+import logo1 from '../../../img/logo1.png';
+import logo3 from '../../../img/logo3.png';
 
 const BrandsBtn = () => {
     return (    

@@ -16,3 +16,12 @@
 .logos__img:hover{
     opacity: 1;
 } 
+
+@media only screen and (min-width: 768px){
+    .logos__container{
+        display: flex;
+        column-gap: 6rem;
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+    }
+}

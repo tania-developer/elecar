@@ -43,6 +43,10 @@
     left: 1.5rem;
 }
 
+.feature__data .normal__font{
+    margin-bottom: .5rem;
+}
+
 .feature__data .smaller__font{
     color: hsl(219, 8%, 95%);
 }
@@ -63,5 +67,32 @@
 }
 
 @media only screen and (min-width: 768px){
-
+    .feature__container{
+        grid-template-columns: 385px;
+    }
+    .feature__img{
+        width: 250px;
+    }
+    .feature__map{
+        max-width: initial;
+        width: 650px;
+    }
+    .feature__data{
+        width: 142px;
+    }
+    
+    .data1{
+        top: 6rem;
+        left: 1.5rem;
+    }
+    
+    .data2{
+        top: 12rem;
+        right: 1rem;
+    }
+    
+    .data3{
+        top: 20rem;
+        left: 1.5rem;
+    }
 }
