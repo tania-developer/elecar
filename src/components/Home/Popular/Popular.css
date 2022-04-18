@@ -63,6 +63,11 @@
     color: hsl(219, 8%, 95%);
 }
 
+.popular__swiper{
+    width: 60%;
+    margin: 0 auto;
+}
+
 @media only screen and (min-width: 768px){
     .popular__container{
         padding-top: 8rem;

@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade';
 const About = () => {
     return (
         <div className="about__container">
-            <Fade left delay={2000} distance='40px'>
+            <Fade left delay={1000} distance='40px'>
                 <div className="about">
                     <img src={aboutPic} alt="aboutPic" />
                     <div className="about__card">
@@ -15,7 +15,7 @@ const About = () => {
                     </div>
                 </div>
             </Fade>
-            <Fade right delay={2000} distance='40px'>
+            <Fade right delay={1000} distance='40px'>
                 <div className="about__details">
                     <h3 className="about__title">Machines With <br/>Future Technology</h3>
                     <p className="smaller__font">

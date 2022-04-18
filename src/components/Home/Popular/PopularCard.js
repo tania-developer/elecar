@@ -5,7 +5,7 @@ import './Popular.css'
 
 
 const PopularCard = (props) => {
-    console.log(props);
+   
     const { title, subtitle,imgUrl, time, speed, charge, price} = props.info;
     return (
         <div className="popular__card">
